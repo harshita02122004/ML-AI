@@ -1,0 +1,204 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO+Ub2Zitv2DABv2r2WE+Ac",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/harshita02122004/ML-AI/blob/main/numpy%20experinment%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zWROghW-k9ge",
+        "outputId": "a762e024-6e71-48e2-8064-b7dd683fe832"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(1, 'hehe', 'd')"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 17
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "a=np.array([1,2.0,3,4.2])\n",
+        "a\n",
+        "b=np.array([5,6,7,8])\n",
+        "c=a+b\n",
+        "c\n",
+        "d=(1,\"hehe\",'d')\n",
+        "d\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "3_Nb7jkIuyIX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "#sorting an array\n",
+        "a.sort()\n",
+        "a\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7f7GKSAGpe75",
+        "outputId": "13e4dbde-c5bf-4cd3-bb55-712b16b70e31"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([1. , 2. , 3. , 4.2])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#creating 2d array and adding them\n",
+        "f=np.array([(1,2,3),(7,5,6)])\n",
+        "e= np.array([(7,3,1),(14,15,36)])\n",
+        "g=e+f\n",
+        "g\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y1AO9-P8pcTt",
+        "outputId": "bc9bea49-6366-47bd-ab2b-af60e538d247"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([[ 8,  5,  4],\n",
+              "       [21, 20, 42]])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "mat=np.zeros((3,4))\n",
+        "mat\n",
+        "mat2=np.ones((2,3,4),dtype=np.int16)\n",
+        "mat2\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UOPNOFutlwtP",
+        "outputId": "e7dcf06b-4b38-484b-b53b-e8cab61d99d6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([[[1, 1, 1, 1],\n",
+              "        [1, 1, 1, 1],\n",
+              "        [1, 1, 1, 1]],\n",
+              "\n",
+              "       [[1, 1, 1, 1],\n",
+              "        [1, 1, 1, 1],\n",
+              "        [1, 1, 1, 1]]], dtype=int16)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 146
+        },
+        "id": "tgKto8v0pqDT",
+        "outputId": "32047b2c-c400-4394-b91e-cb5f98d7aedf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "Field elements must be 2- or 3-tuples, got '14'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-20-515e19c6904a>\u001b[0m in \u001b[0;36m<cell line: 1>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0me\u001b[0m\u001b[0;34m=\u001b[0m \u001b[0mnp\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0marray\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m7\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m3.1\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m14\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m15\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m36\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m: Field elements must be 2- or 3-tuples, got '14'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Um7DfXpYpqky"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
